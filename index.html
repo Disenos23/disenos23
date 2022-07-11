@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane's BlogLife</title>
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/css/style.css">
+    <link rel="stylesheet" href="./vendor/css/all.css">
+</head>
+
+<style>
+
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .dark{
+    background: black;
+  }
+
+  .light{
+    background: rgb(255, 255, 255);
+  }
+
+  .form-control:focus{
+    border-color:black;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  }
+
+  .btn-light:focus{
+    outline: none;
+    box-shadow: inset 0 1px 1px rgb(255, 255, 255);
+  }
+
+  .top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .opacity{
+    opacity: 75%;
+  }
+
+  /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px){
+  .overflow{
+      display: none;
+  }
+}
+
+</style>
+
+<body>
+    <section>
+        <div class="container-fluid w-100 ">
+            <div class="card text-center p-5 border-0">
+                <h1><b>JANE'S BLOGLIFE</b></h1>
+                <p>Welcome to the blog of <span class="dark text-white p-1">Jane's World</span></p>
+            </div>
+        </div>
+    </section>
+</body>
+
+<script src="./vendor/js/jquery.js"></script>
+<script src="./vendor/js/bootstrap.min.js"></script>
+<script src="./vendor/js/all.js"></script>
+
+</html>
